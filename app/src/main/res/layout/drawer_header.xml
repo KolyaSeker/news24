@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="#e5f2f7"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <ImageView
+        android:id="@+id/navdrawer_image"
+        android:layout_width="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/drawer_logo"
+        android:layout_height="wrap_content" />
+</LinearLayout>
