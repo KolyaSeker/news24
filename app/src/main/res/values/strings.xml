@@ -6,6 +6,7 @@
     <string name="information_channel">About channel 24</string>
     <string name="information_product">About</string>
 
-
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/settings_icon"
             android:title="@string/settings" />
-
 
         <item
             android:id="@+id/navigation_subheader"
@@ -21,5 +21,9 @@
                     android:title="@string/information_product" />
             </menu>
         </item>
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/close"
+            android:title="@string/settings" />
     </group>
 </menu>
