@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:id="@+id/card_view"
     android:layout_margin="4dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="5dp">
 
 <RelativeLayout
     android:layout_width="wrap_content"

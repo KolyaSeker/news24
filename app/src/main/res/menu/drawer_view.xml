@@ -4,26 +4,38 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/settings_icon"
-            android:title="@string/settings" />
+            android:icon="@drawable/icon_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/navigation_subheader3"
+            android:title="Settings">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_3"
+                    android:icon="@drawable/settings_icon"
+                    android:title="@string/clear" />
+            </menu>
+        </item>
 
         <item
             android:id="@+id/navigation_subheader"
-            android:title="@string/information_title">
+            android:title="">
             <menu>
-                <item
-                    android:id="@+id/navigation_sub_item_1"
-                    android:icon="@drawable/logo_channel"
-                    android:title="@string/information_channel" />
                 <item
                     android:id="@+id/navigation_sub_item_2"
                     android:icon="@drawable/info"
                     android:title="@string/information_product" />
             </menu>
         </item>
+   <item android:id="@+id/navigation_subheader2"
+        android:title="">
+       <menu>
         <item
             android:id="@+id/nav_exit"
             android:icon="@drawable/close"
-            android:title="@string/settings" />
+            android:title="@string/exit" />
+        </menu>
+        </item>
     </group>
 </menu>
