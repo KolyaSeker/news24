@@ -1,5 +1,6 @@
 package com.example.kolya.news24.SimpleParse;
 
+
 import org.simpleframework.xml.Element;
 
 import io.realm.RealmObject;
